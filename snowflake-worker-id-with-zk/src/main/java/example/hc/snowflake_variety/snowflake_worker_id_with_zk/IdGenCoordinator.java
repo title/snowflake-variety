@@ -92,6 +92,7 @@ public class IdGenCoordinator {
 
     if (Invalid_Worker_Id == workerId) {
       logger.error("Fail to enable id generator for invalid worker id.");
+      return;
     }
 
     idGen.enable(workerId);
