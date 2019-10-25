@@ -1,4 +1,4 @@
-package example.hc.snowflake_variety.single_datacenter_snowflake;
+package example.hc.snowflake_variety.snowflake_worker_id_with_zk;
 
 public abstract class Config {
 
@@ -14,7 +14,7 @@ public abstract class Config {
   public static final long Epoch = 1546300800000L;
 
   /**
-   * It's a simple example for single-datacenter variety, a constant datacenter id is enough
+   * datacenter id should be configured in advance，can not be changed at runtime
    */
   public static long DatacenterId = 0;
 

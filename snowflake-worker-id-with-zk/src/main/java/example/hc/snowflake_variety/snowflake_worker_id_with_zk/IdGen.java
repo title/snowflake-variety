@@ -1,4 +1,4 @@
-package example.hc.snowflake_variety.single_datacenter_snowflake;
+package example.hc.snowflake_variety.snowflake_worker_id_with_zk;
 
 public class IdGen {
 
